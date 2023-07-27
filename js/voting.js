@@ -40,6 +40,7 @@ function handleImageClick(event) {
   for (let i = 0; i < state.allProducts.length; i++) {
     if (imageClicked === state.allProducts[i].name) {
       state.allProducts[i].timesClicked++;
+      state.allProducts[i].voteCount++;
       votingRounds--;
       renderProductImages();
     }

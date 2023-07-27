@@ -36,4 +36,5 @@ function Product(name, fileExtension = 'jpg') {
   this.source = `assets/${name}.${fileExtension}`;
   this.timesClicked = 0;
   this.timesShown = 0;
+  this.voteCount = 0;
 }
