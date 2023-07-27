@@ -1,1 +1,92 @@
 /* TODO: Make it awesome */
+body, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: lightblue;
+    height: auto;
+}
+  
+header {
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px;
+}
+  
+li{
+    background-color: #ccc; /* Light grey background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition effect for background-color property */
+}
+
+li:hover{
+    background-color: #888; /* Dark grey color on mouse hover */
+}
+header h1 {
+    font-size: 30px;
+    margin: 0;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+  
+nav li:last-child {
+    margin-right: 0;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+  
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+img {
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 290px;
+    cursor: pointer;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+}
+/* img:hover { 
+    background-color: lightpink;
+} */
+  
+footer {
+    text-align: center;
+    background-color: lightblue;
+    color: #fff;
+    padding: 10px;
+}
+  
+footer p {
+    margin: 0;
+}
